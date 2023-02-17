@@ -31,9 +31,8 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled":""}>
         <Container>
         <Navbar.Brand href="#home">
-            React-Bootstrap
-            {/* <img src={} alt="logo"/> */}
-            </Navbar.Brand>
+            <img src={logo} alt="logo"/>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -57,9 +56,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="#" src={''} alt=""></a>
-                    <a href="#" src={''} alt=""></a>
-                    <a href="#" src={''} alt=""></a>
+                    <a href="#" src={navIcon1} alt=""></a>
+                    <a href="#" src={navIcon2} alt=""></a>
+                    <a href="#" src={navIcon3} alt=""></a>
                 </div>
             </span>
             <button className="vvd" onClick={() => console.log("connect")}><span>"Contactate!"</span></button>
